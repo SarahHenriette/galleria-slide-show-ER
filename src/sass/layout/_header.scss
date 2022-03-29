@@ -4,14 +4,12 @@
     height: 48px;
     justify-content: space-between;
     align-items: center;
-    // background-color: red;
     margin: 40px auto 0 auto;
     padding-bottom: 40px;
     border-bottom: solid 1px $greyMedium;
     @include mobile-only {
         padding-bottom: 27px;
     }
- 
     &-logo {
         @include mobile-only {
             width: 115px;

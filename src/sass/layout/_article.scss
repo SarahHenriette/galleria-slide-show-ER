@@ -1,0 +1,87 @@
+.article {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 40px;
+    &::after {
+        content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: linear-gradient(transparent, $black);
+            opacity: 0.5;
+            z-index: 2;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+    }
+    &-text {
+        position: absolute;
+        color: #FFF;
+        width: 90%;
+        margin: auto;
+        z-index: 3;
+        bottom: 32px;
+        left: 0;
+        right: 0;
+        h2 {
+            margin: 0 0 7px 0;
+        }
+        p {
+            margin: 0;
+        }
+    }
+  
+}
+
+.article-starryNight, .article-penitentMagdalene, .article-sleepingGypsy {
+    height: 250px;
+}
+
+.article-girlWithPearlEarring {
+    height: 400px;
+}
+
+.article-guernica {
+    height: 285px;
+}
+
+.article-stormSeaGalilee {
+    height: 340px;
+}
+
+.article-greatWaveKanagawa {
+    height: 280px;
+}   
+
+.article-vanGoghSelfPortrait {
+    height: 500px;
+}
+
+.article-ladyWithErmin {
+    height: 420px;
+}
+
+.article-boyRedVest, .article-nightCafe {
+    height: 260px;
+}
+
+.article-arnolfiniPortrait {
+    height: 330px;
+}
+
+.article-monaLisa {
+    height: 525px;
+}
+
+.article-basketOfApple {
+    height: 430px;
+}
+
+.article-Swing {
+    height: 340px;
+}
