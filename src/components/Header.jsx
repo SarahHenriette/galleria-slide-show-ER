@@ -1,8 +1,11 @@
+import logo from './../assets/shared/logo.svg'
+
 function Header () {
     return (
-        <h1>
-            Header
-        </h1>
+        <header className="header">
+            <img src={logo} alt="logo" className="header-logo"/>
+            <a href="#" className="header-link link-1">start slideshow</a>
+        </header>
     )
 }
 

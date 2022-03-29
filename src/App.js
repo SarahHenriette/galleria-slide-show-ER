@@ -1,10 +1,11 @@
 import Home from'./pages/Home';
 import './sass/main.scss';
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <h1>MEERDE</h1>
+      <Header/>
       <Home/>
     </div>
   );

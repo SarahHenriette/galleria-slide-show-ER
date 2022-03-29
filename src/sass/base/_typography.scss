@@ -52,9 +52,14 @@ h3 {
     text-align: right;
     letter-spacing: 2.57143px;
     text-transform: uppercase;
+    text-decoration: none;
     color: $greyDark;
     &:hover {
         color: $black;
+    }
+    @include mobile-only {
+        font-size: 9px;
+        line-height: 11px;
     }
 }
 
