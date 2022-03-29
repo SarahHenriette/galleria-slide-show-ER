@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+$font: 'Libre Baskerville', serif;
+
+.display, h1, h2, h3, .link-1 , .link-2 {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.display {
+    font-size: 200px;
+    line-height: 150px;
+    color: $greyLight;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 64px;
+    color: $black;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: $black;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: $black;
+}
+
+.subhead-1 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: $black;
+}
+
+.subhead-2 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: $black;
+}
+
+.link-1 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 2.57143px;
+    text-transform: uppercase;
+    color: $greyDark;
+    &:hover {
+        color: $black;
+    }
+}
+
+.link-2 {
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 1.92857px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color: $greyDark;
+    &:hover {
+        color: $black;
+    }
+}
+
+body {
+    font-size: 14px;
+    line-height: 28px;
+    color: $greyDark;
+}
